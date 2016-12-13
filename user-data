@@ -1,0 +1,8 @@
+#cloud-config
+users:
+  - name: jeremy
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC/vUEE4gjd+xTg9EtXYP5AVReAjl/DfGhxSigIMLstje1qnfg1ChgW5m4MSPmJQJ7TzF+dhjk/9Fn3gFR39xtSCHL6vndMjRxho88ZSpK10KYCZDZLyGq2TQx908GBsCkUV5swvmdWIUWGJ27h6RLkEtHsb3BQMOkmRBh7h5igKRYNAJ7RPOnCwLvs1up3vMFe0Xu4JR3r0glFQh7k9NrP47umbgcDZvkq8SF6b+oa+KrCBRCILbCsbBGd3oqYSEH0jsFYPa1goRuSlFoe7Zn3v6eBYOpRG3PRxsDewveRfrLSTsyG/e4IwwydfZ7+FTiZjFF8mko/asam2GNaU0N1 jeremy@mudkip
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCsRzJ6XV5tRjjWIdYYEjIDGrkrxwT2yTE894BzHNTt5z9WiGXFA2g31N9ZKLH7621csOYbdmPd0CiW0MiFEs1IrRm8g9DRIUhHdEQ0dwclyPiGDndK9+etTM4UUjRwnaTMOHTpUHrkZ2CB/gMNu4OWPZia3SwFDi0wP02XgL8Y9y9gFGoldBnoOafW8eHzrKvk76Hf5rCfLgIEXYNmVFcpt9oWKlQnGcUXtbspTEQZAOZTwgzv27nVO/HwvOEkIHeqFQZhmzqoXEyG4sbvcNPVDZIN6lscTV5EwcpkxCQsOB0knqaStYh85MOBwWbbFPifGF+bAvIg+DplhIeDRUlj jeremy@mudkip

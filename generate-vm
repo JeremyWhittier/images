@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
+IFS=$'\n\t'
+
+virt-install --name CentOS_1 --ram 2048 --disk centos_1.qcow2 --vcpus 2 --os-variant centos7.0 --connect qemu:///system --network bridge:virbr0,model=virtio --cdrom /images/cloud-init.iso --boot hd &
